@@ -8,28 +8,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Spartan:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- 
      nav bar setting -->
-
-     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light spacingnav">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top spacingnav">
         <a class="navbar-brand" href="#"><img src="image/code.png" width="30" height="30" class="d-inline-block align-top" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+          <ul class="navbar-nav ml-auto h4">
+            <li class="nav-item active nav-lg">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#seconddiv">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Porjects</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -41,55 +42,72 @@
     
 
        <!-- main body  -->
-
-       <div class="firstdiv">
-<h2>Hello,</h2>
-<h3>My name is <b>Ayush Agrawal</b></h3>
-<p>I'm a web developor living in Satna, India.</p>
-
-
-
-<img src="image/landing.png" alt="phone with coding sign" class="landingimg">
+<div class="firstdiv">
+<div class="container-fluid">
+<div class="row landing">
+<div class="col-lg-6 landing-text animated fadeInLeft delay-1s">
+<h3><b>Ayush Agrawal</b></h3> 
+<h5>Designer / Developer</h5>
 </div>
 
+<div class="col-lg-6">
+<img src="image/landing.png" alt="phone with coding sign" class="landingimg ">
+</div>
+</div>
+</div>
+</div>
+</header>
 
 <!-- second div -->
 
 <div class="seconddiv">
 
 
-
-<div class="fixalign">
-<h2>What Skill I have</h2>
-
-
-
-
+<div class="conatiner">
+  <h3 style="font-family: 'Spartan', sans-serif;">What Skills I have</h3>
+<div class="row">
+  <div class="col-lg-6"> 
+    <img src="./image/skills.png" class="skill-img">
+  </div>
+<div class="col-lg-6">
   <table>
     <tr>
     <th>HTML/CSS </th><td>⭐⭐⭐⭐⭐</td></tr>
     <th>JavaScript </th><td>⭐⭐⭐⭐</td></tr>
     <th>Photoshop  </th><td>⭐⭐⭐⭐⭐</td></tr>
     <th> Wordpress </th><td>⭐⭐⭐⭐</td></tr>
-    <th> Analytical Skills </th><td>⭐⭐⭐⭐</td></tr>
+    <th> React.js </th><td>⭐⭐⭐⭐</td></tr>
     <th> Responsive Design </th><td>⭐⭐⭐⭐⭐</td></tr>
-    <th> Python </th><td>⭐⭐⭐</td></tr>
     </tr>
     
     </table>
-
   </div>  
-
 </div>
-
+</div>
+</div>
 <!-- third div -->
 
 <div class="thirddiv">
 
-  <h1>My Project</h1>
+  <h1 style="padding: 35px; font-family: 'Spartan', sans-serif;" align="center">My Project</h1>
+<div class="col-lg-6">
+  <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem; ">
+    <img src="image/skills.png" class="card-img-top " alt="...">
+    <div class="card-body">
+      <p class="card-text"> Its a simple dating site where a dog can find their mate.</p>
+    </div>
+  </div>
+</div>
 
-  
-
+<div class="col-lg-6">
+  <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 18rem; ">
+    <img src="image/skills.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"> Its a simple dating site where a dog can find their mate.</p>
+    </div>
+  </div>
+</div>
+ 
 
 </div>
 
