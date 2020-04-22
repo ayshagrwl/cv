@@ -66,8 +66,7 @@ th,td {
 .seconddiv{
     background-color: #827397;
     color: white;
-    /* padding-bottom: 15%;
-    padding-top: 5%; */
+
 
 }
 
@@ -128,20 +127,9 @@ table {
 }
 
 
-/* 
-.thirddiv{
-    background-color: #827397;
-    padding: 10%;
-    color: white;
-} */
-
-/* #project{
-    background-color: #827397;
-    padding: 12% 7%;
-} */
-
-
-
+.animation{
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
 
 
 .fouthdiv{
