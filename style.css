@@ -52,7 +52,11 @@ h3{
     table {
         margin-left: 10%;
     }
+    
+
  }
+
+ 
 
 th,td {
     font-size: 1.5rem;
@@ -60,10 +64,57 @@ th,td {
 }
 
 .seconddiv{
-    background-color: #4d4c7d;
+    background-color: #827397;
     color: white;
-    padding-bottom: 5%;
+    /* padding-bottom: 15%;
+    padding-top: 5%; */
+
 }
+
+@media only screen and (max-width: 600px) {
+    .seconddiv{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+  }
+
+
+#about{
+    color: white;
+    background-color: #4d4c7d;
+text-align: center;
+padding: 5% 10%;
+
+}
+
+
+#about p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+#about img{
+    width: 30%;
+    border-radius: 100%;
+    padding: 5% 0 ;
+}
+
+
+#about h1{
+
+font-size: 5rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    #about img{
+        width: 60%;
+       padding-bottom: 10%; 
+    }
+  }
 
 table {
     margin-left: 5%;
@@ -76,15 +127,22 @@ table {
     text-align: center;
 }
 
+
+/* 
 .thirddiv{
     background-color: #827397;
-    padding: 110px 60px 20px 110px;
+    padding: 10%;
     color: white;
-}
+} */
 
-.card-text{
-    color: black;
-}
+/* #project{
+    background-color: #827397;
+    padding: 12% 7%;
+} */
+
+
+
+
 
 .fouthdiv{
     background-color: #d8b9c3;
@@ -96,6 +154,13 @@ table {
 .spacingnav{
     padding: 8px 100px 8px 110px;
 }
+
+@media only screen and (max-width: 600px) {
+    .spacingnav{
+        padding-right: 5%;  
+        padding-left: 5%; 
+     }
+  }
 
 .myjpg{
     width: 200px;
@@ -117,14 +182,32 @@ span{
     font-family: 'Nunito', sans-serif;
   }
 
-  /* .overlay {
-    position: absolute;
-    top: 1;
-    z-index: 10;
-    width: 740px;
-    height: 372px;
-    background: rgba(0,0,0,0.6);
-    transform: skew(200.25deg);
-    left: 300px;
-  } */
 
+
+li{
+    font-size: 1.3rem;
+}
+
+
+.backinfo table{
+
+    margin: auto;
+}
+
+
+.backinfo th, a{
+    padding: 10%;
+    color: #83509b;
+}
+
+
+.backinfo img{
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .backinfo img{
+        width: 100%;
+    }
+  }
